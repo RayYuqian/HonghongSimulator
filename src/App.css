@@ -1,0 +1,10 @@
+/* Make sure index.css is doing its job and clearing margins */
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  max-width: none;
+  box-shadow: none;
+  background-color: transparent;
+}
