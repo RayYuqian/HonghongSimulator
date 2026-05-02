@@ -1,0 +1,29 @@
+﻿.bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 8px 16px;
+  background-color: var(--light-green);
+  border-bottom: 1px solid var(--primary-green);
+  font-size: 14px;
+}
+
+.name {
+  color: var(--dark-green);
+  font-weight: 500;
+}
+
+.logoutBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: 1px solid var(--primary-green);
+  border-radius: 12px;
+  padding: 4px 12px;
+  font-size: 13px;
+  color: var(--dark-green);
+  cursor: pointer;
+  transition: all 0.2s;
+}

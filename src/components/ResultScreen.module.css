@@ -1,0 +1,126 @@
+﻿.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f7f6;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: var(--white);
+  box-shadow: var(--shadow);
+  z-index: 10;
+}
+
+.iconBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px 16px;
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.reportCard {
+  background-color: var(--white);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.scoreSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scoreCircle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-width: 6px;
+  border-style: solid;
+}
+
+.scoreNumber {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.scoreLabel {
+  font-size: 20px;
+  margin-left: 2px;
+  margin-top: 12px;
+}
+
+.moodLabel {
+  margin-top: 12px;
+  font-size: 20px;
+  color: var(--text-light);
+}
+
+.summaryBox {
+  background-color: #f9faf9;
+  padding: 20px;
+  border-radius: 12px;
+  border-left-width: 4px;
+  border-left-style: solid;
+}
+
+.summaryText {
+  font-size: 20px;
+  color: var(--text-main);
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.sectionPill {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.list {
+  list-style-type: disc;
+  padding-left: 24px;
+  margin: 0;
+}
+
+.listItem {
+  font-size: 20px;
+  color: var(--text-main);
+  margin-bottom: 6px;
+  line-height: 1.5;
+}

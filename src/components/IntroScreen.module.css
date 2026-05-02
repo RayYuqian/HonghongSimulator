@@ -1,0 +1,111 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0 24px;
+}
+
+.title {
+  font-size: 30px;
+  color: var(--dark-green);
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: var(--text-light);
+  font-size: 16px;
+}
+
+.selectionArea {
+  flex: 1;
+  padding: 0 24px;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  color: var(--text-main);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.genderBtn {
+  padding: 8px 24px;
+  border-radius: 20px;
+  border: 1px solid;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  border: 2px solid transparent;
+  border-radius: 16px;
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: var(--shadow);
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--white);
+}
+
+.charInfo {
+  flex: 1;
+}
+
+.charHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.charName {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.tag {
+  font-size: 12px;
+  background-color: var(--primary-green);
+  color: white;
+  padding: 2px 6px;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.charDesc {
+  font-size: 14px;
+  color: var(--text-light);
+  line-height: 1.4;
+}
+
+.footer {
+  margin-top: 16px;
+  margin-bottom: 26px;
+  padding: 0 24px;
+}
